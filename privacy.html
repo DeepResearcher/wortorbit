@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WortOrbit – Privacy policy</title>
+<script>
+var langs = ["tr", "de", "en", "ar"], pick = "en";
+(navigator.languages || [navigator.language || "en"]).some(function (l) {
+  var code = (l || "").slice(0, 2).toLowerCase();
+  if (langs.indexOf(code) >= 0) { pick = code; return true; }
+  return false;
+});
+location.replace(pick + "/privacy.html");
+</script>
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap"><main><h1>WortOrbit – Privacy policy</h1><p><a href="tr/privacy.html">Türkçe</a> · <a href="de/privacy.html">Deutsch</a> · <a href="en/privacy.html">English</a> · <a href="ar/privacy.html">العربية</a></p></main></div></body></html>
